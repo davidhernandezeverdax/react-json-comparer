@@ -1,0 +1,62 @@
+.json-comparator-container {
+  padding: 16px;
+}
+
+.json-comparator-textareas {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.json-comparator-textarea {
+  border: 1px solid #ccc;
+  padding: 8px;
+  flex-grow: 1;
+  color: #333;
+  min-height: 200px;
+}
+
+.json-comparator-button {
+  padding: 8px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.json-comparator-difference {
+  margin-top: 16px;
+}
+
+.json-diff {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  color: #333;
+}
+
+.json-diff-added {
+  background-color: #d4edda;
+}
+
+.json-diff-removed {
+  background-color: #f8d7da;
+}
+
+.json-diff-modified {
+  background-color: #fff3cd;
+}
+
+.json-diff-unchanged {
+  background-color: #f0f0f0;
+}
+
+.json-diff-object {
+  padding-left: 16px;
+}
+
+.json-diff-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
